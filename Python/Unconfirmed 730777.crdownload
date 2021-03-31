@@ -1,0 +1,14 @@
+
+s = int(input("Enter the length of a side of square: "))
+l = int(input("Enter the length of rectangle: "))
+b = int(input("Enter the breadth of rectangle: "))
+print('Enter the base and height of tringle')
+h = int(input("Enter the base of tringle: "))
+d = int(input("Enter the height of tringle: "))
+x = lambda s : s * s
+y = lambda l,b : l * b
+t=0.5
+z= lambda h,d,t : h * d * t
+print("Area of square is :",x(s))
+print('Area  of rectangle',y(l,b))
+print('Area of tringle',z(h,d,t))

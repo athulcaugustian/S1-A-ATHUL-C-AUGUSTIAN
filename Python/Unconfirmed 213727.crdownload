@@ -1,0 +1,13 @@
+def func(strings,y):
+    g=len(strings[0])
+    for i in range(y):
+        if(g<len(strings[i])):
+            g=len(strings[i])
+    return g
+
+
+
+input_string = input("Enter a list element separated by space ")
+list  = input_string.split()
+y=len(list)
+print(func(list,y))
